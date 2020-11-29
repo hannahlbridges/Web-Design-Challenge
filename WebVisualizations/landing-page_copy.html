@@ -11,13 +11,13 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #a7f5f8;">
-        <a class="navbar-brand" href="#">Latitude Analysis</a>
+        <a class="navbar-brand" href="landing-page.html">Latitude Analysis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="comparisons-page.html">Comparisons <span class="sr-only">(current)</span></a>
             </li>
@@ -40,42 +40,22 @@
      
         </div>
       </nav>
-      <div class="col-md-12">
-        <div class="col-md-4">
-            <ul>
-                <li>
-                    <a href="cloudiness-page.html">Cloudiness Visualization</a>
-                </li>
-                <li>
-                    <a href="humidity-page.html">Humidity Visualization</a>
-                </li>
-                <li>
-                    <a href="temperature-page.html">Temperature Visualization</a>
-                </li>
-                <li>
-                    <a href="wind-speed-page.html">Wind Speed Visualization</a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-md-8">
-            <p>This website shows the analysis results of data comparing locations latitudes to various weather phenomena including cloudiness, humidity, temperature and wind speed.</p>    
-        </div>
-
-      </div>  
-        <div class="container">
-            <h3 class="text-center">Visualizations</h3>
-            <div class="row">
+      <div class="container">
+        <div class="row">
+            
+            <div class="sidebar">
                 <div class="col-md-3">
                     <div class="thumbnail">
-                        <img src="assets/images/Fig3.png" alt="..." class="img-thumbnail">
+                        <a href="cloudiness-page.html" title="Cloudiness Visualization"><img src="assets/images/Fig3.png" class="img-thumbnail"></a>
                     </div>
                     <div class="caption">
                         <h3 style="font-size:20px">Cloudiness Visualization</h3>
                     </div>
                 </div>
+                <br>
                 <div class="col-md-3">
                     <div class="thumbnail">
-                        <img src="assets/images/Fig2.png" alt="..." class="img-thumbnail">
+                        <a href="humidity-page.html" title="Humidity Visualization"><img src="assets/images/Fig2.png" class="img-thumbnail"></a>
                     </div>
                     <div class="caption">
                         <h3 style="font-size:20px">Humidity Visualization</h3>    
@@ -83,7 +63,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="thumbnail">
-                        <img src="assets/images/Fig1.png" alt="..." class="img-thumbnail">
+                        <a href="temperature-page.html" title="Temperature Visualization"><img src="assets/images/Fig1.png" class="img-thumbnail"></a>
                     </div>
                     <div class="caption">
                         <h3 style="font-size:20px">Temperature Visualization</h3>
@@ -91,16 +71,40 @@
                 </div>
                 <div class="col-md-3">
                     <div class="thumbnail">
-                        <img src="assets/images/Fig4.png" alt="..." class="img-thumbnail">
+                        <a href="wind-speed-page.html" title="Wind Speed Visualization"><img src="assets/images/Fig4.png" class="img-thumbnail"></a>
                     </div>
                     <div class="caption">
                         <h3 style="font-size:20px">Wind Speed Visualization</h3>
                     </div>
                 </div>
             </div>
-        </div>
-  
+            <div class="col-md-8">
+                <div class="col-md-8">
+                    <ul>
+                        <li>
+                            <a href="cloudiness-page.html">Cloudiness Visualization</a>
+                        </li>
+                        <li>
+                            <a href="humidity-page.html">Humidity Visualization</a>
+                        </li>
+                        <li>
+                            <a href="temperature-page.html">Temperature Visualization</a>
+                        </li>
+                        <li>
+                            <a href="wind-speed-page.html">Wind Speed Visualization</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <p>This website shows the analysis results of data comparing locations latitudes to various weather phenomena including cloudiness, humidity, temperature and wind speed.</p>    
+                </div>
 
+        </div>
+      </div>  
+  
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
       
 </body>
 
